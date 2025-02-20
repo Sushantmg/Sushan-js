@@ -61,6 +61,22 @@ let str2 =" Sushan des"
 let str3 = str1 + str2
 console.log(str3);
 
+console.log(2+2+"2"+"2");//422 // not prefered type code
+
+//prefix increment
+let x=2
+const y=++x
+console.log(x,y);//3,3
+
+//postfix increment
+let x1=2
+const y1=x1++
+console.log(x1,y1);//3,2
+
+
+
+
+
 
 
 
