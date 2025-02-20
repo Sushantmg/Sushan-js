@@ -46,6 +46,24 @@ console.log(stringNumber);//20
 console.log(typeof stringNumber);//string
 
 
+let value = 7
+let negvalue = -value
+console.log(negvalue);
+
+console.log(2+2);//addition
+console.log(2-2);//subtraction
+console.log(2**3);//power to 3
+console.log(2/2);//divide
+console.log(2*2);//multiplication
+
+let str1 ="Hajimemaste watasiwa"
+let str2 =" Sushan des"
+let str3 = str1 + str2
+console.log(str3);
+
+
+
+
 
 
 
