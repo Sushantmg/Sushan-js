@@ -29,3 +29,16 @@ console.log(newStringOne.trim());//Sushan
 const url = "https://Sushan.com/Sushan%20tamang"
 console.log(url.replace('%20','%10'));//"https://Sushan.com/Sushan%10tamang"
 
+console.log(url.includes("Sushan"));//true
+console.log(url.includes("Rock"))//false
+
+const str = "The girl behind me is beautiful"
+const words= str.split(" ")
+console.log(words[3])//me
+console.log(words[2]);//behind
+
+const chars= str.split(" ")
+console.log(chars[3]);
+
+const strCopy = str.split( )
+console.log(strCopy) // The girl behind me is beautiful
