@@ -25,3 +25,25 @@ const myFunction = function()
 {
     console.log("Hello World")   
 }
+
+// primitive ( STACK) and non-primitive ( HEAP )
+
+let myYouTubeName = "SushanG"
+
+let anothername = myYouTubeName
+anothername = "Susg"
+
+console.log(myYouTubeName);
+console.log(anothername);
+
+let userOne = {                          //heap
+    email : "Sushan@gmail.com", 
+    pp : "sus@gg"
+}
+let userTwo = userOne
+
+userTwo.email = "Susg@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
